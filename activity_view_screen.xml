@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009688"
+    tools:context=".ViewScreen">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="323dp"
+        android:layout_height="108dp"
+        app:srcCompat="@drawable/weather_forecast"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/btnReturn"
+        android:layout_width="118dp"
+        android:layout_height="36dp"
+        android:text="Return"
+        tools:layout_editor_absoluteX="174dp"
+        tools:layout_editor_absoluteY="667dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="225dp"
+        android:layout_height="21dp"
+        android:text="Weather Condition: Sunny"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="364dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="122dp"
+        android:layout_height="20dp"
+        android:text="Monday"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="139dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="223dp"
+        android:layout_height="21dp"
+        android:text="Minimum temp is 12 degrees"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="170dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="123dp"
+        android:layout_height="22dp"
+        android:text="Tuesday"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="265dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="226dp"
+        android:layout_height="21dp"
+        android:text="Maximum temp is 25 degrees"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="200dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="228dp"
+        android:layout_height="21dp"
+        android:text="Minimum temp is 10 degrees"
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="423dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="123dp"
+        android:layout_height="23dp"
+        android:text="Saturday"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="392dp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="223dp"
+        android:layout_height="23dp"
+        android:text="Maximum temp is 29 degrees"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="328dp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="228dp"
+        android:layout_height="28dp"
+        android:text="Maximum temp is 18 degrees"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="455dp" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="224dp"
+        android:layout_height="26dp"
+        android:text="Minimum temp is 15 degrees"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="294dp" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="220dp"
+        android:layout_height="25dp"
+        android:text="Weather Condition: Sunny"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="232dp" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="213dp"
+        android:layout_height="25dp"
+        android:text="Weather Condition: Raining"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="490dp" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="125dp"
+        android:layout_height="22dp"
+        android:text="Sunday"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="527dp" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="216dp"
+        android:layout_height="23dp"
+        android:text=" Minimum temp is 10 degrees"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="558dp" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="217dp"
+        android:layout_height="24dp"
+        android:text="Maximum temp is 16 degrees"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="588dp" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="219dp"
+        android:layout_height="30dp"
+        android:text="Weather Condition: Cold"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="623dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
